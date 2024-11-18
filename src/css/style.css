@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "ATT Aleck Sans";
+  src: local("ATT Aleck Sans Regular"),
+  url("../fonts/ATTAleckSansRegular.woff2") format("woff2"),
+  url("../fonts/ATTAleckSansRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ATT Aleck Sans";
+  src: local("ATT Aleck Sans Medium"),
+  url("../fonts/ATTAleckSansMedium.woff2") format("woff2"),
+  url("../fonts/ATTAleckSansMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ATT Aleck Sans";
+  src: local("ATT Aleck Sans Bold"),
+  url("../fonts/ATTAleckSansBold.woff2") format("woff2"),
+  url("../fonts/ATTAleckSansBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Regular"),
+  url("../fonts/SFProText-Regular.woff2") format("woff2"),
+  url("../fonts/SFProText-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Medium"),
+  url("../fonts/SFProText-Medium.woff2") format("woff2"),
+  url("../fonts/SFProText-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "SF Pro Text", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "ATT Aleck Sans", sans-serif;
+}
+
+hr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero__video {
+  height: 308px;
+  background-color: #cfd4d9;
+}
+
+.pricing__description {
+  max-width: 627px;
+}
+
+.price-card__header {
+  font-family: "SF Pro Text", sans-serif;
+}
+
+.icon-grid-card {
+  font-family: "ATT Aleck Sans", sans-serif;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.icon-grid-card__icon {
+  position: absolute;
+  left: 24px;
+}
